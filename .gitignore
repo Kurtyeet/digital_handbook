@@ -1,0 +1,47 @@
+# Employee Leave Management Portal - Development Environment
+
+## Git Ignore Rules
+
+# Dependencies
+/vendor/
+composer.lock
+
+# Configuration (sensitive)
+config/config.php
+config/database.php
+
+# Uploads and user files
+uploads/documents/*
+!uploads/documents/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+tmp/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+tests/coverage/
+phpunit.xml
+.phpunit.result.cache
+
+# Backup files
+*.bak
+*.backup
+*~
